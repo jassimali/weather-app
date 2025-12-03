@@ -4,7 +4,7 @@ import WeatherCard from "./components/WeatherCard";
 import UnitToggle from "./components/UnitToggle";
 import ScratchCard from "./components/ScratchCard";
 
-const API_KEY = "9075ef6a390f76155b54e6b1c9b0977d";
+const API_KEY = process.env.REACT_APP_OPENWEATHER_API_KEY;
 
 function App() {
   // ---------- State ----------
