@@ -232,7 +232,7 @@ function App() {
 
     if (text === "280828") {
       // special code → scratch card
-      setSecretMessage("nte innutyaaattoooooo 😙");
+      setSecretMessage("hahahhaahah");
     } else {
       // normal message
       setSecretMessage("Happy Hacking!!!!");
